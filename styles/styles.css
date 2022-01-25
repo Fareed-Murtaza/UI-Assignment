@@ -1,0 +1,558 @@
+html,
+body {
+    font-family: "Mulish", sans-serif !important;
+    font-size: 16px !important;
+    margin: 0 !important;
+}
+
+.header {
+    display: flex;
+    background: linear-gradient(to left, #111d37 20%, #254575);
+    padding: 15px 80px;
+    justify-content: space-between;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.h-icon {
+    align-self: center;
+}
+
+.h-menu-list {
+    list-style: none;
+    display: flex;
+    color: white;
+    margin-top: 20px;
+}
+
+.h-menu-list>li {
+    margin-inline: 20px;
+}
+
+.custom-btn {
+    border: 2px solid #fff;
+    background-color: #f0f8ff00;
+    color: #fff;
+    align-self: center;
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+.main-view {
+    display: flex;
+    background: linear-gradient(to left, #111d37 20%, #254575);
+    color: white;
+    padding: 40px 80px;
+    height: 750px;
+    box-sizing: content-box;
+}
+
+.m-img-container {
+    position: absolute;
+    margin-left: auto;
+    left: 20%;
+}
+
+.m-content-container {
+    max-width: 650px;
+    margin-block: 120px;
+}
+
+.m-img {
+    height: 80%;
+    width: auto;
+}
+
+.mc-heading {
+    font-size: 70px;
+    margin: 0;
+}
+
+.mc-paragraph {
+    line-height: 2;
+    letter-spacing: 1px;
+    padding-block: 15px;
+}
+
+.custom-btn-mc {
+    background: linear-gradient(#f24646, #ce5f29);
+    border: 2px solid #fb111100;
+    padding: 18px;
+}
+
+.container {
+    max-width: 1600px !important;
+}
+
+.our-services {
+    padding: 40px;
+    background-color: white;
+    text-align: center;
+    padding-block: 80px;
+}
+
+.os-main-container {
+    margin-block: 40px;
+}
+
+.os-main {
+    max-width: 450px;
+    margin: auto;
+}
+
+.os-hyperlink {
+    color: #a85151;
+    font-weight: bold;
+}
+
+.os-heading {
+    color: #000;
+    font-size: x-large;
+    font-weight: inherit;
+    margin-block: 15px;
+}
+
+.os-icon {
+    border: 2px solid white;
+    padding: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 4px #f4f4f4;
+    color: #e16262;
+    font-size: 35px !important;
+}
+
+.os-card-title {
+    margin: 35px 0 25px 0
+}
+
+.os-detail {
+    word-spacing: 2px;
+    padding-inline: 30px;
+    line-height: 1.7;
+}
+
+.os-cards {
+    margin-bottom: 40px;
+}
+
+.business-section {
+    background-color: #f3f3f3;
+    padding: 100px 150px;
+}
+
+.b-img {
+    width: 650px;
+}
+
+.b-icon {
+    border: 2px solid #dbd6d6;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0px 4px #f4f4f4;
+    color: #e16262;
+    font-size: 35px !important;
+    border-radius: 10px;
+}
+
+.b-title {
+    max-width: 350px;
+    margin-bottom: 60px;
+    font-size: xxx-large;
+}
+
+.b-title-description {
+    max-width: 80%;
+}
+
+.b-btn {
+    padding: 18px 44px;
+}
+
+.industry-section {
+    background: linear-gradient(to left, #254575 20%, #111d37);
+    color: white;
+    padding-inline: 150px;
+}
+
+.i-heading {
+    color: white;
+    font-size: 35px;
+}
+
+.i-paragraph {
+    font-size: 16px;
+}
+
+.i-cards-container {
+    text-align: center;
+}
+
+.i-icon {
+    font-size: 50px !important;
+    padding: 0 0 30px 0;
+}
+
+.i-card-title {
+    padding-inline: 25px;
+}
+
+.i-card {
+    border: 1px solid #978b8b;
+    padding: 40px;
+}
+
+.i-contact-link {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.partner-section {
+    text-align: center;
+    padding: 150px;
+    border-bottom: 2px solid #f3f3f3;
+}
+
+.p-main {
+    max-width: 850px !important;
+    margin: auto;
+}
+
+.p-main-paragraph {
+    line-height: 2;
+}
+
+.p-btn {
+    color: #f96b6b;
+    border-color: #f96b6b;
+}
+
+.p-tile {
+    padding: 0 20px 0 20px;
+}
+
+.p-number {
+    font-size: 70px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.p-paragraph {
+    max-width: 350px;
+    margin: auto;
+}
+
+.stuffs-img {
+    width: 100%;
+    height: 100%;
+}
+
+.video-section {
+    background-image: url('./../images/ezgif-2-82af66fcd1cb.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+}
+
+.video-container {
+    margin-block: 150px;
+}
+
+.v-detail {
+    max-width: 60%;
+    margin: auto;
+}
+
+.v-heading {
+    font-size: xxx-large;
+    font-weight: bold;
+    margin-block: 50px;
+}
+
+.overlay {
+    position: static;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(74, 84, 151, 0.41);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.v-icon i {
+    font-size: 100px !important;
+    font-size: 40px;
+    background: -moz-linear-gradient(top, #e72cd3 0%, #c69942 100%);
+    background: -webkit-linear-gradient(top, #e72cd3 0%, #c69942 100%);
+    background: linear-gradient(to bottom, #e72cd3 0%, #c69942 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.v-button {
+    color: #e72c9e;
+    background: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.p-impression {
+    position: absolute;
+    margin: auto;
+    left: 30%;
+    top: 20%;
+    color: #fff;
+}
+
+.image-container {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    display: block;
+    background: rgba(0, 0, 0, .6);
+}
+
+.notification-card {
+    position: absolute;
+    left: 30%;
+    top: 39%;
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    z-index: 2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.sm-nc {
+    top: 49%;
+    width: 95%;
+    left: 0%;
+    margin-left: 20px;
+}
+
+
+/* Footer */
+
+.web-tagline {
+    line-height: 2;
+}
+
+.web-number {
+    font-size: 25px;
+}
+
+.web.email {
+    text-decoration: underline;
+}
+
+.f-subsection {
+    box-sizing: border-box;
+}
+
+[class*="css-col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.fm-heading {
+    margin-bottom: 35px;
+}
+
+.footer-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu li {
+    padding: 0 0 20px 0;
+    margin-bottom: 7px;
+    font-weight: 100;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+.newsletter {
+    border: 1px solid #000;
+    border-radius: 25px;
+    justify-content: space-between;
+    display: flex;
+    align-items: baseline;
+    padding-inline: 15px;
+    margin-bottom: 20px;
+}
+
+.newsletter-text {
+    margin: 0;
+    padding: 12px;
+}
+
+.footer-icons i {
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.copyright-text {
+    font-size: 16px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+/* For small Screen: */
+
+[class*="css-col-"] {
+    width: 100%;
+    padding: 0px;
+}
+
+
+/* For Small Screen : */
+
+@media only screen and (max-width: 1199px) {
+    .lg-nc {
+        display: none;
+    }
+    .h-menu {
+        display: none;
+    }
+    .p-impression {
+        left: 40%;
+        top: 30%;
+    }
+    .b-img {
+        width: 100%;
+        height: auto;
+    }
+    .i-card {
+        padding-block: 40px;
+    }
+    .business-section {
+        padding: 100px 20px;
+    }
+    .partner-section {
+        padding-inline: 20px;
+    }
+    .p-paragraph {
+        max-width: 100%;
+    }
+    .industry-section {
+        padding-inline: 20px;
+    }
+    .m-img-container {
+        display: none;
+    }
+    .i-card {
+        margin-bottom: 20px;
+    }
+    .footer-section {
+        display: table;
+        padding: 20px 0 20px 15px;
+    }
+    .css-col-s-1 {
+        width: 8.33%;
+    }
+    .css-col-s-2 {
+        width: 16.66%;
+    }
+    .css-col-s-3 {
+        width: 25%;
+    }
+    .css-col-s-4 {
+        width: 33.33%;
+    }
+    .css-col-s-5 {
+        width: 41.66%;
+    }
+    .css-col-s-6 {
+        width: 50%;
+    }
+    .css-col-s-7 {
+        width: 58.33%;
+    }
+    .css-col-s-8 {
+        width: 66.66%;
+    }
+    .css-col-s-9 {
+        width: 75%;
+    }
+    .css-col-s-10 {
+        width: 83.33%;
+    }
+    .css-col-s-11 {
+        width: 91.66%;
+    }
+    .css-col-s-12 {
+        width: 100%;
+    }
+}
+
+
+/* For Large Screen: */
+
+@media only screen and (min-width: 1200px) {
+    .sm-nc {
+        display: none;
+    }
+    .h-small-menu {
+        display: none;
+    }
+    .b-card {
+        margin-left: 100px;
+    }
+    .os-cards {
+        display: flex;
+    }
+    .footer-section {
+        display: table;
+        padding: 100px 150px 30px 150px;
+    }
+    .css-col-1 {
+        width: 8.33%;
+    }
+    .css-col-2 {
+        width: 16.66%;
+    }
+    .css-col-3 {
+        width: 25%;
+    }
+    .css-col-4 {
+        width: 33.33%;
+    }
+    .css-col-5 {
+        width: 41.66%;
+    }
+    .css-col-6 {
+        width: 50%;
+    }
+    .css-col-7 {
+        width: 58.33%;
+    }
+    .css-col-8 {
+        width: 66.66%;
+    }
+    .css-col-9 {
+        width: 75%;
+    }
+    .css-col-10 {
+        width: 83.33%;
+    }
+    .css-col-11 {
+        width: 91.66%;
+    }
+    .css-col-12 {
+        width: 100%;
+    }
+}
