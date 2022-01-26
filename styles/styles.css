@@ -59,6 +59,7 @@ body {
 .m-content-container {
     max-width: 650px;
     margin-block: 120px;
+    z-index: 2;
 }
 
 .m-img {
@@ -144,7 +145,7 @@ body {
 }
 
 .b-img {
-    width: 650px;
+    width: 100%;
 }
 
 .b-icon {
@@ -164,7 +165,7 @@ body {
 }
 
 .b-title-description {
-    max-width: 80%;
+    max-width: 100%;
 }
 
 .b-btn {
@@ -336,13 +337,6 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.sm-nc {
-    top: 49%;
-    width: 95%;
-    left: 0%;
-    margin-left: 20px;
-}
-
 .p-card1 {
     background-image: url('./../images/ezgif-2-23981be6ff11.png');
     background-repeat: no-repeat;
@@ -427,14 +421,88 @@ body {
     font-size: 16px;
     text-align: center;
     box-sizing: border-box;
+    padding-inline: 20px;
+}
+
+@media only screen and (min-width: 800px) {
+    .notification-card {
+        top: 50% !important;
+    }
 }
 
 
 /* For Small Screen : */
 
 @media only screen and (max-width: 1199px) {
-    .lg-nc {
-        display: none;
+    .notification-card {
+        top: 25%;
+        width: 90%;
+        left: 0%;
+        margin-inline: 5%;
+    }
+    .os-cards {
+        width: 100%;
+    }
+    .header {
+        padding: 30px 20px;
+    }
+    .h-container {
+        font-size: 35px;
+        padding: 0 10px;
+    }
+    .main-view {
+        padding: 0px 20px;
+        height: 400px;
+    }
+    .m-content-container {
+        max-width: 100%;
+        margin-block: auto;
+    }
+    .mc-heading {
+        font-size: 45px;
+    }
+    .b-title {
+        margin-bottom: 30px;
+    }
+    .b-icon {
+        margin-bottom: 15px;
+    }
+    .tile {
+        margin-bottom: 30px !important;
+    }
+    .business-section {
+        padding: 60px 20px !important;
+    }
+    .os-cards {
+        margin-bottom: 0;
+    }
+    .our-services {
+        padding-block: 20px;
+    }
+    .partner-section {
+        padding: 50px;
+    }
+    .p-tile {
+        padding: 0;
+        margin-bottom: 15px;
+    }
+    .p-number {
+        font-size: 50px;
+    }
+    .video-container {
+        margin-block: 100px;
+    }
+    .v-detail {
+        max-width: 95%;
+    }
+    .v-heading {
+        font-size: larger;
+        font-weight: bold;
+        margin-block: 0;
+        margin-bottom: 20px;
+    }
+    .v-icon {
+        margin-bottom: 20px;
     }
     .h-menu {
         display: none;
@@ -510,11 +578,17 @@ body {
 /* For Large Screen: */
 
 @media only screen and (min-width: 1200px) {
-    .sm-nc {
-        display: none;
+    .tile {
+        margin-bottom: 3rem !important;
+    }
+    .os-tile {
+        display: flex;
     }
     .h-small-menu {
         display: none;
+    }
+    .i-card {
+        margin-inline: 5px;
     }
     .b-card {
         margin-left: 100px;
