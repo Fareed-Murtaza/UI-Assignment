@@ -430,14 +430,6 @@ body {
 }
 
 
-/* For small Screen: */
-
-[class*="css-col-"] {
-    width: 100%;
-    padding: 0px;
-}
-
-
 /* For Small Screen : */
 
 @media only screen and (max-width: 1199px) {
@@ -447,10 +439,6 @@ body {
     .h-menu {
         display: none;
     }
-    /* .p-impression {
-        left: 40%;
-        top: 30%;
-    } */
     .b-img {
         width: 100%;
         height: auto;
